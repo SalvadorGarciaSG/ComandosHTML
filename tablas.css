@@ -1,0 +1,54 @@
+*{
+    background-color:;
+    color: ;
+    font-size: 20px;
+
+    padding: 0;
+    margin: 0;
+
+    width: ;
+    height: ;
+}
+
+header {
+    text-align: center;
+}
+
+/*Inicia Tabla*/
+.TituloTabla {
+    font-size: 50px;
+    text-align: center
+}
+
+table {
+    background-color: ;
+    color: ;
+    border: 1px solid black;
+    width: 100%;
+    height: 125px;
+    text-align: center;
+
+}
+
+/*Ejemplo Marcado Cuadros Celdas de la Tabla */
+th, td {
+    border: solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+/*Ejemplo para que resalte una fila de un color y la siguiente de otro */
+tr:nth-child(even) {
+    background-color: darkkhaki;
+}
+
+/*Ejeplo Etiqueta hover Resalta la Fila que Seleccionas */
+tr:hover {
+    background-color: antiquewhite;
+    /*Ejemplo Etiqueta Curso Pointer Pone Una Manita Cuando Pasas el Cursor Sobre la Celda */
+    cursor: pointer;
+}

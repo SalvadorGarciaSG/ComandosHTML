@@ -1,0 +1,83 @@
+/*Aplica el Estilo a todo tu HTML */
+*{
+    background-color:;
+    color: ;
+    font-size: 20px;
+
+    padding:0;
+    margin: 0;
+
+    width: ;
+    height: ;
+}
+
+@media screen and (min-width: 750px) {
+    .ContenedorEstudios {
+        background-color: antiquewhite;
+        border: 2px solid black;
+        grid-column: span ;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+     .ContenedorEstudios {
+        background-color: greenyellow;
+        border: 2px solid green;
+        grid-column: span ;   
+    }
+}
+
+/*Inicia Estructura Basica HTML */
+head {
+    
+}
+
+body {
+    /*Comando Para el 100% Total de tu Pantalla*/
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh; 
+}
+
+#Titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.Menus {
+    text-align: center;
+}
+
+/*Quien es Salvador Garcia */ 
+.Quien {
+    font-size: 50px;
+    text-align: center
+}
+
+.ImagenProfile {
+    text-align: center;
+    background-color: ;
+}
+
+.Estudios {
+    text-align: center;
+    display: inline;
+}
+
+/*Colores Exagedecimal o RGB */
+{
+    color: #000;
+    color: #fff;
+
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+    
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+}

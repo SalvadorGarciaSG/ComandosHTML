@@ -1,0 +1,181 @@
+*{
+    background-color:;
+    color: ;
+    font-size: 20px;
+
+    padding: ;
+    margin: ;
+
+    width: ;
+    height: ;
+}
+
+header {
+    background-color:;
+    color: ; 
+
+    text-align: center;
+    padding: 50px;
+}
+
+.Titulos {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+    font-size: 50px;
+}
+
+.SubTitulos {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+}
+
+/*Grid 1fr */
+#ContenedorSection1fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#ContenedorArticle1fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#ContenedorDiv1fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Grid 1fr Creciente*/
+#ContenedorSection1frCreciente {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+#ContenedorArticle1frCreciente {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+#ContenedorDiv1frCreciente {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+/*Grid Porcentual*/
+#ContenedorSectionPorcentual {
+    display: grid;
+    grid-template-columns: 10% 20% 30%
+}
+
+#ContenedorArticlePorcentual {
+    display: grid;
+    grid-template-columns: 10% 30% 60%
+}
+
+#ContenedorDivPorcentual {
+    display: grid;
+    grid-template-columns: 10% 60% 30%
+}
+
+.Cuadrado1 {
+    background-color: green;
+
+    width: 200px;
+    height:200px ;
+    
+    margin-bottom: 20px;   
+    border: solid 10px black;
+    padding: 25px;
+}
+
+.Cuadrado2 {
+    background-color: white;
+
+    width: 200px;
+    height: 200px;
+    
+    margin-bottom: 20px;   
+    border: solid 10px black;
+    padding: 25px; 
+}
+
+.Cuadrado3 {
+    background-color: red;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;   
+    border: solid 10px black;
+    padding: 25px;
+}
+
+.Cuadrado4 {
+    background-color: green;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
+
+.Cuadrado5 {
+    background-color: white;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
+
+.Cuadrado6 {
+    background-color: red;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
+
+.Cuadrado7 {
+    background-color: green;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
+
+.Cuadrado8 {
+    background-color: white;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
+
+.Cuadrado9 {
+    background-color: red;
+
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 20px;
+    border: solid 10px black;
+    padding:25px;
+}
