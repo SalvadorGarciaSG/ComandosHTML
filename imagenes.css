@@ -1,7 +1,7 @@
 *{
     background-color:;
     color: ;
-    font-size: 20px;
+    font-size: ;
 
     padding: 0;
     margin: 10px;
@@ -14,20 +14,31 @@ body {
     /*Comando Para el 100% Total de tu Pantalla*/
     display: flex;
     flex-direction: column;
+
     width: 100vw;
     height: 100vh; 
 }
 
 header {
     text-align: center;
+    font-size: 50px;
 }
 
-.SectionFotos {
+.Titulosh1 {
+    background-color: black;
+    color: white;
+ 
+    text-align: center;
+    font-size: 50px;
+
+}
+
+/* Display Flex */
+.Flex {
     display: flex;
 }
 
-/*Ejemplo Uso backgroud*/
-.BarrancaHuentitan {
+#FlexBarrancaHuentitan {
     background-color: black;
     color: white;
 
@@ -44,7 +55,7 @@ header {
     flex-grow: 1;
 }
 
-.CerroDelToro {
+#FlexCerroDelToro {
     background-color: white;
     color: ;
 
@@ -64,7 +75,20 @@ header {
     flex-grow: 1;  
 }
 
-.PaddleBoard {
+
+#FlexCocodrilario {
+    background-color: ;
+    color: ;
+    text-align: center;
+
+    border: double black;
+    border-radius: 50px;
+    border-width: 10px;
+
+    flex-grow: 1;
+}
+
+#FlexPaddleBoard {
     background-color: black;
     color: white;
 
@@ -80,24 +104,7 @@ header {
     flex-grow: 1;
 }
 
-
-.DivFotos {
-    display: flex;
-}
-
-.Cocodrilario {
-    background-color: ;
-    color: ;
-    text-align: center;
-
-    border: double black;
-    border-radius: 50px;
-    border-width: 10px;
-
-    flex-grow: 1;
-}
-
-.PerfilRedes {
+#FlexPerfilRedes {
     background-color: black;
     color: white;
 
@@ -107,10 +114,10 @@ header {
     border-radius: 50px;
     border-width: 10px;
 
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
-.PescaKayak {
+#FlexPescaKayak {
     background-color: ;
     color: ;
 
@@ -120,8 +127,94 @@ header {
     border-radius: 50px;
     border-width: 15px;
 
-    flex-grow: 3;
+    flex-grow:  5;
 }
+
+/* Display Grid */
+#Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#GridBarrancaHuentitan {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: dotted;
+    border-color: red;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 50px;
+    margin: 50px;
+}
+
+#GridCerroDelToro {
+    background-color: white;
+    color: ;
+
+    text-align: center;
+
+    border: dashed black;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 25px 25px 25px 25px;
+    margin: 50px 50px 50px 50px;
+
+    height: px;
+    width: px;
+    overflow: scroll;
+}
+
+#GridCocodrilario {
+    background-color: ;
+    color: ;
+    text-align: center;
+
+    border: double black;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+#GridPaddleBoard {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: solid red ;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+}
+
+#GridPerfil {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: groove red;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+#GridPescaKayak {
+    background-color: ;
+    color: ;
+
+    text-align: center;
+
+    border: ridge black;
+    border-radius: 50px;
+    border-width: 15px;
+}
+
 
 footer {
     background-color: black;

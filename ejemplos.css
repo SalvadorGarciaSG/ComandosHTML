@@ -1,15 +1,215 @@
-
 *{
-    font-size: ;
+    background-color:;
     color: ;
-    background-color: ;
-    width: px;
-    height: px;
+    font-size: ;
+
+    padding: 0;
+    margin: 10px;
+
+    width: ;
+    height: ;
+}
+
+body {
+    /*Comando Para el 100% Total de tu Pantalla*/
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh; 
 }
 
 header {
-    background-color: ;
     text-align: center;
     font-size: 50px;
 }
 
+.Titulosh1 {
+    background-color: black;
+    color: white;
+ 
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+/* Display Flex */
+.FlexMaster {
+    display: flex;
+}
+
+.Flex {
+    width: 70%;
+}
+
+.FlexPaddle {
+    width: ;
+ 
+}
+
+#FlexBarrancaHuentitan {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: dotted;
+    border-color: red;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 50px;
+    margin: 50px;
+}
+
+#FlexCerroDelToro {
+    background-color: white;
+    color: ;
+
+    text-align: center;
+
+    border: dashed black;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 25px 25px 25px 25px;
+    margin: 50px 50px 50px 50px;
+
+    height: px;
+    width: px;
+    overflow: scroll; 
+}
+
+#FlexCocodrilario {
+    background-color: ;
+    color: ;
+    text-align: center;
+
+    border: double black;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+#FlexPaddleBoard {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: solid red ;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+}
+
+#Paddle {
+    background-color: antiquewhite;
+    color: white;
+
+    text-align: center;
+
+    border: solid red ;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+
+    height: 1500px;
+    width: 500px;
+}
+
+/* Display Grid */
+#GridMaster {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+#Grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+   
+}
+
+#GridBarrancaHuentitan {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: dotted;
+    border-color: red;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 50px;
+    margin: 50px;
+}
+
+#GridCerroDelToro {
+    background-color: white;
+    color: ;
+
+    text-align: center;
+
+    border: dashed black;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 25px 25px 25px 25px;
+    margin: 50px 50px 50px 50px;
+
+    height: px;
+    width: px;
+    overflow: scroll;
+}
+
+#GridCocodrilario {
+    background-color: ;
+    color: ;
+    text-align: center;
+
+    border: double black;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+#GridPaddleBoard {
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    border: solid red ;
+    border-radius: 50px;
+    border-width: 10px;
+
+    padding: 1px 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+}
+
+#GridPescaKayak {
+    background-color: ;
+    color: ;
+
+    text-align: center;
+
+    border: ridge black;
+    border-radius: 50px;
+    border-width: 15px;
+}
+
+
+footer {
+    background-color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+    border: ;
+    border-radius: 20px;
+}
